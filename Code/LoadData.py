@@ -1,41 +1,17 @@
 import json
 import os
 import pickle
+import numpy as np
 from pprint import pprint
 
-winningRuns, losingRuns, cards, relics = None, None, None, None
+winningRuns, losingRuns, cards, relics, X, Y = None, None, None, None, None, None
 cwd = os.path.dirname(__file__)
+pathToData = os.path.join(cwd, '..', 'Data')
 
-#Load all the variables from 
-def loadVars():
-    varFileNames = ['cards.json', 'relics.json']
-    varFilePaths = [None, None]
-    varList = [None, None]
-
-    for file in range(len(varFileNames)):
-        varFilePaths[file] = os.path.join(cwd, '..', 'Data', varFileNames[file])
-        varList[file] = json.load(open(varFilePaths[file]))
-
-    #Set Variables to global scope and write cards and relics
-    global cards, relics, winningRuns, losingRuns
-    cards = varList[0]
-    relics = varList[1]
-
-
-    #Try to load up the wins and loses, if unable to then parse them from dump file
-    winsPath = os.path.join(cwd, '..', 'Data', 'wins.pkl')
-    losePath = os.path.join(cwd, '..', 'Data', 'loses.pkl')
-
-    try:
-        winningRuns = pickle.load(open(winsPath, 'r+'))
-        losingRuns = pickle.load(open(losePath, 'r+'))
-    except IOError:
-        print("No run files found, loading from bulk data")
-        loadFromFile(winsPath, losePath)
     
 #Parses the wins and loses from the dump file
 def loadFromFile(winsPath, losePath):
-    runsPath = os.path.join(cwd, '..', 'Data', 'data_2018-10-24_0-5000.json')
+    runsPath = os.path.join(pathToData, 'data_2018-10-24_0-5000.json')
                                  
     runs = json.load(open(runsPath))
 
@@ -54,8 +30,71 @@ def loadFromFile(winsPath, losePath):
     pickle.dump(winningRuns, open(winsPath, 'w'))
     pickle.dump(losingRuns, open(losePath, 'w'))
     
-    
+#Load all the variables from 
+def loadVars():
+    varFileNames = ['cards.json', 'relics.json']
+    varFilePaths = [None, None]
+    varList = [None, None]
+
+    for file in range(len(varFileNames)):
+        varFilePaths[file] = os.path.join(pathToData, varFileNames[file])
+        varList[file] = json.load(open(varFilePaths[file]))
+
+    #Set Variables to global scope and write cards and relics
+    global cards, relics, winningRuns, losingRuns
+    cards = varList[0]
+    relics = varList[1]
+
+
+    #Try to load up the wins and loses, if unable to then parse them from dump file
+    winsPath = os.path.join(pathToData, 'wins.pkl')
+    losePath = os.path.join(pathToData, 'loses.pkl')
+
+    try:
+        winningRuns = pickle.load(open(winsPath, 'r+'))
+        losingRuns = pickle.load(open(losePath, 'r+'))
+        print("Run data files found and loaded")
+    except IOError:
+        print("No run files found, loading from bulk data")
+        loadFromFile(winsPath, losePath)
+
+def loadArrays():
+    global X, Y
+    xPath = os.path.join(pathToData, 'X.npy')
+    yPath = os.path.join(pathToData, 'Y.npy')
+    try:
+        X = np.load(xPath)
+        Y = np.load(yPath)
+        print("Loaded Arrays from file")
+    except IOError:
+        print("No array files found, parsing from data files")
+        loadVars()
+        index = list(cards.keys())
+        numCards = len(index)
+        runs = winningRuns + losingRuns
+        X = np.zeros((len(runs), numCards*2))
+        Y = np.concatenate((np.ones(len(winningRuns)), np.zeros(len(losingRuns))))
+        np.save(yPath, Y)
+        rowCount = 0
+        for run in runs:
+            #print ('row: ', rowCount)
+            for card in run[u'event'][u'master_deck']:
+                cardName = str(card)
+                #print ('index: ', str(index[collumnCount]))
+                #print ('card: ', str(card))
+                for i in range(len(index)):
+                    indexCardName = str(index[i])
+                    upgradedIndexCardName = str(indexCardName + '+1')
+                    if cardName == indexCardName:
+                        #print cardName, i
+                        X[rowCount][i] += 1
+                    elif cardName == upgradedIndexCardName:
+                         X[rowCount][i+numCards] += 1
+            rowCount += 1
+        np.save(xPath, X)
+                    
+        
         
 
 if __name__=='__main__':
-    loadVars()
+    loadArrays()
