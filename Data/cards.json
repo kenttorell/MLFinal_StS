@@ -1,0 +1,2266 @@
+{
+    "Reaper":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Chill":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Buffer":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 2,
+        "pool": 0
+    },
+    "Reboot":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Choke":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Scrape":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Caltrops":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Steam Power":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Setup":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Undo":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Electrodynamics":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 2,
+        "pool": 0
+    },
+    "Redo":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Core Surge":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Compile Driver":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Immolate":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "BootSequence":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Inflame":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Offering":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Distraction":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Recycle":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Double Tap":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Sucker Punch":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Footwork":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "All Out Attack":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Dodge and Roll":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Flying Knee":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Sadistic Nature":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "POWER",
+        "cost": 0,
+        "pool": 0
+    },
+    "Exhume":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Flame Barrier":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Seek":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Storm":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "PanicButton":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "RitualDagger":
+    {
+        "rarity": "SPECIAL",
+        "color": "COLORLESS",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Wound":
+    {
+        "rarity": "COMMON",
+        "color": "COLORLESS",
+        "card_type": "STATUS",
+        "cost": -2,
+        "pool": 0
+    },
+    "Burn":
+    {
+        "rarity": "COMMON",
+        "color": "COLORLESS",
+        "card_type": "STATUS",
+        "cost": -2,
+        "pool": 0
+    },
+    "Dazed":
+    {
+        "rarity": "COMMON",
+        "color": "COLORLESS",
+        "card_type": "STATUS",
+        "cost": -2,
+        "pool": 0
+    },
+    "Slimed":
+    {
+        "rarity": "COMMON",
+        "color": "COLORLESS",
+        "card_type": "STATUS",
+        "cost": 1,
+        "pool": 0
+    },
+    "All For One":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Berserk":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 0,
+        "pool": 0
+    },
+    "Regret":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Crippling Poison":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Grand Finale":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Conserve Battery":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Void":
+    {
+        "rarity": "COMMON",
+        "color": "COLORLESS",
+        "card_type": "STATUS",
+        "cost": -2,
+        "pool": 0
+    },
+    "Go for the Eyes":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "A Thousand Cuts":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 2,
+        "pool": 0
+    },
+    "Fission":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Zap":
+    {
+        "rarity": "BASIC",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Heatsinks":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Secret Technique":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Writhe":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Hello World":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Violence":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Secret Weapon":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Spot Weakness":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Mayhem":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Consume":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Flex":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Dagger Spray":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Machine Learning":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Hologram":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Transmutation":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": -1,
+        "pool": 0
+    },
+    "Chrysalis":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "After Image":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Forethought":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Fusion":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Leg Sweep":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Anger":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Bullet Time":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 3,
+        "pool": 0
+    },
+    "Catalyst":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Magnetism":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Deflect":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Trip":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Dagger Throw":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Masterful Stab":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Brutality":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 0,
+        "pool": 0
+    },
+    "Night Terror":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 3,
+        "pool": 0
+    },
+    "Iron Wave":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Evolve":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Reckless Charge":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Thinking Ahead":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Decay":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Tools of the Trade":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 0,
+        "pool": 0
+    },
+    "Blade Dance":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Amplify":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "The Bomb":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "HandOfGreed":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Aggregate":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Dramatic Entrance":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Hemokinesis":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Chaos":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Intimidate":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Echo Form":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 3,
+        "pool": 0
+    },
+    "Blur":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Expertise":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Poisoned Stab":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Juggernaut":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 2,
+        "pool": 0
+    },
+    "Blizzard":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Rebound":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "True Grit":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Barrage":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Impervious":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Shrug It Off":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Stack":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Thunderclap":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Shame":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Body Slam":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Impatience":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Pummel":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Burning Pact":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Riddle With Holes":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Metallicize":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Self Repair":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Pommel Strike":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Burst":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Acrobatics":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Blind":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Doppelganger":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": -1,
+        "pool": 0
+    },
+    "Skewer":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": -1,
+        "pool": 0
+    },
+    "Envenom":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Adrenaline":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Quick Slash":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Twin Strike":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Bash":
+    {
+        "rarity": "BASIC",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Loop":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Parasite":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Static Discharge":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Clothesline":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Shockwave":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Coolheaded":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Bandage Up":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Sever Soul":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Whirlwind":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": -1,
+        "pool": 0
+    },
+    "Bite":
+    {
+        "rarity": "SPECIAL",
+        "color": "COLORLESS",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Tactician":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": -2,
+        "pool": 0
+    },
+    "Gash":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Storm of Steel":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Warcry":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Cleave":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Ball Lightning":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Glacier":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Unload":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Calculated Gamble":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Tempest":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": -1,
+        "pool": 0
+    },
+    "Malaise":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": -1,
+        "pool": 0
+    },
+    "Combust":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Deep Breath":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Doubt":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Finisher":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Dark Embrace":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Die Die Die":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Well Laid Plans":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 0,
+        "pool": 0
+    },
+    "Seeing Red":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Disarm":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Turbo":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Panache":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "POWER",
+        "cost": 0,
+        "pool": 0
+    },
+    "Deadly Poison":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "J.A.X.":
+    {
+        "rarity": "SPECIAL",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Lockon":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Streamline":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "AscendersBane":
+    {
+        "rarity": "SPECIAL",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Power Through":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Dual Wield":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Underhanded Strike":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Force Field":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 4,
+        "pool": 0
+    },
+    "Armaments":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Havoc":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Feel No Pain":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "FTL":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Sweeping Beam":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Genetic Algorithm":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Creative AI":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 2,
+        "pool": 0
+    },
+    "Dark Shackles":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Glass Knife":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Cloak And Dagger":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Sunder":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 3,
+        "pool": 0
+    },
+    "Shiv":
+    {
+        "rarity": "SPECIAL",
+        "color": "COLORLESS",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Bane":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Infernal Blade":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Darkness":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Corruption":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 2,
+        "pool": 0
+    },
+    "Injury":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Double Energy":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Rage":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Rip and Tear":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Limit Break":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Noxious Fumes":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Heel Hook":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Heavy Blade":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Reflex":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": -2,
+        "pool": 0
+    },
+    "Sentinel":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Wild Strike":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Clumsy":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Searing Blow":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Reprogram":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Survivor":
+    {
+        "rarity": "BASIC",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Battle Trance":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Panacea":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Enlightenment":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Purity":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Dash":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Ghostly":
+    {
+        "rarity": "SPECIAL",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Rupture":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 0,
+        "pool": 0
+    },
+    "Venomology":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Leap":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Corpse Explosion":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Second Wind":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Bouncing Flask":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Bludgeon":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 3,
+        "pool": 0
+    },
+    "Finesse":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Slice":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Backflip":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Bloodletting":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Concentrate":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Perfected Strike":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Master of Strategy":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Flechettes":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Skim":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Capacitor":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Outmaneuver":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Cold Snap":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Thunder Strike":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 3,
+        "pool": 0
+    },
+    "Carnage":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Normality":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Prepared":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Accuracy":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Sword Boomerang":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Defragment":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Good Instincts":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Swift Strike":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Hyperbeam":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Dropkick":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Blood for Blood":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 3,
+        "pool": 0
+    },
+    "Endless Agony":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Wraith Form v2":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 3,
+        "pool": 0
+    },
+    "Melter":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Pain":
+    {
+        "rarity": "CURSE",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Rainbow":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Rampage":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Phantasmal Killer":
+    {
+        "rarity": "RARE",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Dualcast":
+    {
+        "rarity": "BASIC",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Escape Plan":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Fiend Fire":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Barricade":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 2,
+        "pool": 0
+    },
+    "Apotheosis":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Entrench":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Infinite Blades":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Auto Shields":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Biased Cognition":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "POWER",
+        "cost": 1,
+        "pool": 0
+    },
+    "Necronomicurse":
+    {
+        "rarity": "SPECIAL",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": -2,
+        "pool": 0
+    },
+    "Backstab":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Feed":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Discovery":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Beam Cell":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "White Noise":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Demon Form":
+    {
+        "rarity": "RARE",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 3,
+        "pool": 0
+    },
+    "Steam":
+    {
+        "rarity": "COMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Predator":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Pride":
+    {
+        "rarity": "SPECIAL",
+        "color": "CURSE",
+        "card_type": "CURSE",
+        "cost": 1,
+        "pool": 0
+    },
+    "Jack Of All Trades":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Metamorphosis":
+    {
+        "rarity": "RARE",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 2,
+        "pool": 0
+    },
+    "Meteor Strike":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 5,
+        "pool": 0
+    },
+    "Clash":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Terror":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    },
+    "Headbutt":
+    {
+        "rarity": "COMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Defend_R":
+    {
+        "rarity": "BASIC",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Defend_G":
+    {
+        "rarity": "BASIC",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Reinforced Body":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": -1,
+        "pool": 0
+    },
+    "Defend_B":
+    {
+        "rarity": "BASIC",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Eviscerate":
+    {
+        "rarity": "UNCOMMON",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 4,
+        "pool": 0
+    },
+    "Flash of Steel":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Strike_B":
+    {
+        "rarity": "BASIC",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Strike_G":
+    {
+        "rarity": "BASIC",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Strike_R":
+    {
+        "rarity": "BASIC",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Mind Blast":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "ATTACK",
+        "cost": 1,
+        "pool": 0
+    },
+    "Fire Breathing":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "POWER",
+        "cost": 0,
+        "pool": 0
+    },
+    "PiercingWail":
+    {
+        "rarity": "COMMON",
+        "color": "GREEN",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Ghostly Armor":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "SKILL",
+        "cost": 1,
+        "pool": 0
+    },
+    "Uppercut":
+    {
+        "rarity": "UNCOMMON",
+        "color": "RED",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Neutralize":
+    {
+        "rarity": "BASIC",
+        "color": "GREEN",
+        "card_type": "ATTACK",
+        "cost": 0,
+        "pool": 0
+    },
+    "Multi-Cast":
+    {
+        "rarity": "RARE",
+        "color": "BLUE",
+        "card_type": "SKILL",
+        "cost": -1,
+        "pool": 0
+    },
+    "Doom and Gloom":
+    {
+        "rarity": "UNCOMMON",
+        "color": "BLUE",
+        "card_type": "ATTACK",
+        "cost": 2,
+        "pool": 0
+    },
+    "Madness":
+    {
+        "rarity": "UNCOMMON",
+        "color": "COLORLESS",
+        "card_type": "SKILL",
+        "cost": 0,
+        "pool": 0
+    }
+}

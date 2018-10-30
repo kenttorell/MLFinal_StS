@@ -1,0 +1,807 @@
+{
+    "Vajra":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Oddly Smooth Stone":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "DataDisk":
+    {
+        "rarity": "COMMON",
+        "color": "Blue"
+    },
+    "Inserter":
+    {
+        "rarity": "BOSS",
+        "color": "Blue"
+    },
+    "Symbiotic Virus":
+    {
+        "rarity": "UNCOMMON",
+        "color": "Blue"
+    },
+    "Fusion Hammer":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Busted Crown":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Mark of the Bloom":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "MealTicket":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Potion Belt":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Strawberry":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "War Paint":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Empty Cage":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "CultistMask":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "GremlinMask":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Sling":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "DollysMirror":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "TheAbacus":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "TwistedFunnel":
+    {
+        "rarity": "SHOP",
+        "color": "Green"
+    },
+    "HandDrill":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Incense Burner":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Ring of the Serpent":
+    {
+        "rarity": "BOSS",
+        "color": "Green"
+    },
+    "Boot":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "HoveringKite":
+    {
+        "rarity": "BOSS",
+        "color": "Green"
+    },
+    "Sundial":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Whetstone":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Pear":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Necronomicon":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Du-Vu Doll":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "PrismaticShard":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Mummified Hand":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "FossilizedHelix":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Ginger":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Emotion Chip":
+    {
+        "rarity": "RARE",
+        "color": "Blue"
+    },
+    "FrozenCore":
+    {
+        "rarity": "BOSS",
+        "color": "Blue"
+    },
+    "Spirit Poop":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Blood Vial":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Velvet Choker":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Old Coin":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Chemical X":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Nunchaku":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Blue Candle":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Eternal Feather":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "StoneCalendar":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "WristBlade":
+    {
+        "rarity": "BOSS",
+        "color": "Green"
+    },
+    "WingedGreaves":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "PreservedInsect":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "NlothsMask":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "WarpedTongs":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Bottled Tornado":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "MawBank":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Nloth's Gift":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "MutagenicStrength":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "OrangePellets":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Pocketwatch":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Kunai":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Pen Nib":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Dodecahedron":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Runic Dome":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Lantern":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Torii":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Bird Faced Urn":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Snecko Eye":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Pandora's Box":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Regal Pillow":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Singing Bowl":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Brimstone":
+    {
+        "rarity": "SHOP",
+        "color": "Red"
+    },
+    "Unceasing Top":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Lee's Waffle":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Matryoshka":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Toolbox":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Smiling Mask":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Ancient Tea Set":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Shovel":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Cursed Key":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "NeowsBlessing":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Thread and Needle":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "The Courier":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Golden Idol":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "FaceOfCleric":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Girya":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Astrolabe":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Dead Branch":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Question Card":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "ClockworkSouvenir":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Bag of Preparation":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Omamori":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "SsserpentHead":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Frozen Egg 2":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Toxic Egg 2":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Ornamental Fan":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Bloody Idol":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Turnip":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Ice Cream":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Calipers":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Ectoplasm":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Lizard Tail":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Art of War":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Gremlin Horn":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Sozu":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Philosopher's Stone":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Happy Flower":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Prayer Wheel":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Toy Ornithopter":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Orrery":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Nilry's Codex":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Tiny House":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Bottled Lightning":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Centennial Puzzle":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Letter Opener":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Molten Egg 2":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Runic Pyramid":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Bronze Scales":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Mango":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Frozen Eye":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Black Star":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Enchiridion":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Bottled Flame":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Orichalcum":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Darkstone Periapt":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Juzu Bracelet":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Shuriken":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Meat on the Bone":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Red Mask":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Mercury Hourglass":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "White Beast Statue":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Dream Catcher":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Pantograph":
+    {
+        "rarity": "UNCOMMON",
+        "color": "All"
+    },
+    "Tiny Chest":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Odd Mushroom":
+    {
+        "rarity": "SPECIAL",
+        "color": "All"
+    },
+    "Peace Pipe":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Strange Spoon":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Anchor":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Bag of Marbles":
+    {
+        "rarity": "COMMON",
+        "color": "All"
+    },
+    "Black Blood":
+    {
+        "rarity": "BOSS",
+        "color": "Red"
+    },
+    "Magic Flower":
+    {
+        "rarity": "RARE",
+        "color": "Red"
+    },
+    "Charon's Ashes":
+    {
+        "rarity": "RARE",
+        "color": "Red"
+    },
+    "Burning Blood":
+    {
+        "rarity": "STARTER",
+        "color": "Red"
+    },
+    "Paper Frog":
+    {
+        "rarity": "UNCOMMON",
+        "color": "Red"
+    },
+    "Runic Cube":
+    {
+        "rarity": "BOSS",
+        "color": "Red"
+    },
+    "Snake Skull":
+    {
+        "rarity": "COMMON",
+        "color": "Green"
+    },
+    "Ring of the Snake":
+    {
+        "rarity": "STARTER",
+        "color": "Green"
+    },
+    "Runic Capacitor":
+    {
+        "rarity": "SHOP",
+        "color": "Blue"
+    },
+    "Cracked Core":
+    {
+        "rarity": "STARTER",
+        "color": "Blue"
+    },
+    "Cables":
+    {
+        "rarity": "UNCOMMON",
+        "color": "Blue"
+    },
+    "The Specimen":
+    {
+        "rarity": "RARE",
+        "color": "Green"
+    },
+    "Cauldron":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Tough Bandages":
+    {
+        "rarity": "RARE",
+        "color": "Green"
+    },
+    "Red Skull":
+    {
+        "rarity": "COMMON",
+        "color": "Red"
+    },
+    "Paper Crane":
+    {
+        "rarity": "UNCOMMON",
+        "color": "Green"
+    },
+    "Calling Bell":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    },
+    "Membership Card":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Self Forming Clay":
+    {
+        "rarity": "UNCOMMON",
+        "color": "Red"
+    },
+    "Mark of Pain":
+    {
+        "rarity": "BOSS",
+        "color": "Red"
+    },
+    "Nuclear Battery":
+    {
+        "rarity": "BOSS",
+        "color": "Blue"
+    },
+    "Gambling Chip":
+    {
+        "rarity": "RARE",
+        "color": "All"
+    },
+    "Champion Belt":
+    {
+        "rarity": "RARE",
+        "color": "Red"
+    },
+    "Ninja Scroll":
+    {
+        "rarity": "UNCOMMON",
+        "color": "Green"
+    },
+    "Tingsha":
+    {
+        "rarity": "RARE",
+        "color": "Green"
+    },
+    "Medical Kit":
+    {
+        "rarity": "SHOP",
+        "color": "All"
+    },
+    "Coffee Dripper":
+    {
+        "rarity": "BOSS",
+        "color": "All"
+    }
+}

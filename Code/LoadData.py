@@ -12,8 +12,18 @@ pathToData = os.path.join(cwd, '..', 'Data')
 #Parses the wins and loses from the dump file
 def loadFromFile(winsPath, losePath):
     runsPath = os.path.join(pathToData, 'data_2018-10-24_0-5000.json')
-                                 
-    runs = json.load(open(runsPath))
+
+    runs = []
+
+    for f in os.listdir(os.path.join(pathToData, 'runs')):
+        runsPath = os.path.join(pathToData, 'runs', f, f)
+        runs += json.load(open(runsPath))
+        print("Reading: ", f, "Cumulative size: ", len(runs))
+        if len(runs) > 100000:
+            break
+
+    #runs = json.load(open(runsPath))
+       
 
     global winningRuns, losingRuns
     winningRuns = []
@@ -51,6 +61,7 @@ def loadVars():
     losePath = os.path.join(pathToData, 'loses.pkl')
 
     try:
+        #pickle.load(open("break")) #This is for debugging
         winningRuns = pickle.load(open(winsPath, 'r+'))
         losingRuns = pickle.load(open(losePath, 'r+'))
         print("Run data files found and loaded")
@@ -63,6 +74,7 @@ def loadArrays():
     xPath = os.path.join(pathToData, 'X.npy')
     yPath = os.path.join(pathToData, 'Y.npy')
     try:
+        #np.load("break") #For debugging
         X = np.load(xPath)
         Y = np.load(yPath)
         print("Loaded Arrays from file")
