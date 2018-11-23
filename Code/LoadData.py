@@ -11,7 +11,7 @@ pathToData = os.path.join(cwd, '..', 'Data')
     
 #Parses the wins and loses from the dump file
 def loadFromFile(winsPath, losePath):
-    runsPath = os.path.join(pathToData, 'data_2018-10-24_0-5000.json')
+    #runsPath = os.path.join(pathToData, 'data_2018-10-24_0-5000.json')
 
     runs = []
 
@@ -75,6 +75,7 @@ def loadArrays():
     yPath = os.path.join(pathToData, 'Y.npy')
     try:
         #np.load("break") #For debugging
+        # np.load("Break")
         X = np.load(xPath)
         Y = np.load(yPath)
         print("Loaded Arrays from file")
@@ -106,7 +107,8 @@ def loadArrays():
         np.save(xPath, X)
                     
         
-        
+def main():
+    loadArrays()
 
 if __name__=='__main__':
     loadArrays()
