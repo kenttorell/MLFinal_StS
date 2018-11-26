@@ -72,6 +72,20 @@ def main():
     LoadData.main()
     from LoadData import X,Y
 
+#Used for finding min and max card counts **Testing and curiosity only**
+    # min = 100
+    # max = 0
+    # cumCount = 0
+    # for run in range(X.shape[0]):
+    #     count = np.sum(X[run])
+    #     cumCount += count
+    #     if min > count:
+    #         min = count
+    #     if max < count:
+    #         max = count
+    # print min, max, cumCount/X.shape[0]
+    # exit(0)
+
     # Pick a random seed to use
     seed = random.randint(0, 1000)
 
