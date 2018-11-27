@@ -68,6 +68,10 @@ def predictYs(Xs, theta, pi_1):
     # print np.sum(Ys)/Ys.shape[0]
     return Ys
 
+def testingOnly(X):
+    print X.shape[0]
+    exit(0)
+
 def main():
     LoadData.main()
     from LoadData import X,Y
@@ -85,6 +89,8 @@ def main():
     #         max = count
     # print min, max, cumCount/X.shape[0]
     # exit(0)
+
+    testingOnly(X)
 
     # Pick a random seed to use
     seed = random.randint(0, 1000)

@@ -12,30 +12,47 @@ pathToData = os.path.join(cwd, '..', 'Data')
 #Parses the wins and loses from the dump file
 def loadFromFile(winsPath, losePath):
     #runsPath = os.path.join(pathToData, 'data_2018-10-24_0-5000.json')
-
+    global winningRuns, losingRuns
     runs = []
+    count = 0
+    winningRuns = []
+    losingRuns = []
+    winningCount = 0
+    lossCount = 0
 
     for f in os.listdir(os.path.join(pathToData, 'runs')):
         runsPath = os.path.join(pathToData, 'runs', f, f)
-        runs += json.load(open(runsPath))
-        print("Reading: ", f, "Cumulative size: ", len(runs))
-        if len(runs) > 100000:
+        runs = json.load(open(runsPath))
+        count += len(runs)
+
+        # If floors reached = 50 then died to final boss, 51 means victory
+        for run in runs:
+            floor = run['event']['floor_reached']
+            if floor == 50:
+                losingRuns.append(run)
+                lossCount+=1
+            elif floor == 51:
+                winningRuns.append(run)
+                winningCount += 1
+        print("Reading: ", f, "Cumulative size: ", count, "NumWins: ", winningCount, "NumLosses", lossCount)
+
+        if len(runs) > 200000:
             break
 
     #runs = json.load(open(runsPath))
        
 
-    global winningRuns, losingRuns
-    winningRuns = []
-    losingRuns = []
-
-    #If floors reached = 50 then died to final boss, 51 means victory
-    for run in runs:
-        floor = run['event']['floor_reached']
-        if floor == 50:
-            losingRuns.append(run)
-        elif floor == 51:
-            winningRuns.append(run)
+    # global winningRuns, losingRuns
+    # winningRuns = []
+    # losingRuns = []
+    #
+    # #If floors reached = 50 then died to final boss, 51 means victory
+    # for run in runs:
+    #     floor = run['event']['floor_reached']
+    #     if floor == 50:
+    #         losingRuns.append(run)
+    #     elif floor == 51:
+    #         winningRuns.append(run)
 
     pickle.dump(winningRuns, open(winsPath, 'w'))
     pickle.dump(losingRuns, open(losePath, 'w'))
@@ -61,7 +78,7 @@ def loadVars():
     losePath = os.path.join(pathToData, 'loses.pkl')
 
     try:
-        #pickle.load(open("break")) #This is for debugging
+        pickle.load(open("break")) #This is for debugging
         winningRuns = pickle.load(open(winsPath, 'r+'))
         losingRuns = pickle.load(open(losePath, 'r+'))
         print("Run data files found and loaded")
