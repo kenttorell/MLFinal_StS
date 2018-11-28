@@ -69,6 +69,10 @@ def predictYs(Xs, theta, pi_1):
     return Ys
 
 def testingOnly(X):
+    print np.percentile(np.sum(X, axis=1), 25)
+    print np.percentile(np.sum(X, axis=1), 50)
+    print np.percentile(np.sum(X, axis=1), 75)
+    print np.median(X)
     print X.shape[0]
     exit(0)
 

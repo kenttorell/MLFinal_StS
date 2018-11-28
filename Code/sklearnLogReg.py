@@ -32,10 +32,10 @@ tX, tY, cX, cY = prepareData(X,Y, seed)
 
 
 #Uncomment this one for l1/Lasso regression (not technically lasso, but same idea)
-log = LogisticRegression(penalty='l1', solver = 'liblinear', random_state=seed, multi_class='ovr')
+# log = LogisticRegression(penalty='l1', solver = 'liblinear', random_state=seed, multi_class='ovr')
 
 #Uncomment this one for l2/ridge regression
-# log = LogisticRegression(penalty='l1', solver = 'liblinear', random_state=seed, multi_class='ovr')
+log = LogisticRegression(penalty='l1', solver = 'liblinear', random_state=seed, multi_class='ovr')
 
 log.fit(tX,tY)
 # print "Check1"
@@ -46,4 +46,5 @@ predicted = log.predict(cX)
 # print cY
 
 print "Percentage correct without using model: ", np.sum(tY)/tY.shape[0], '%'
+print "Misclassification rate: ", 1-np.sum(tY)/tY.shape[0], '%'
 print "Percentage correct using model: ", 1-np.sum(np.absolute(predicted - cY))/cY.shape[0], "%"

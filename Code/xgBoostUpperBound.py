@@ -44,4 +44,5 @@ print (yPred)
 print(cY)
 
 print ("Percentage correct without using model: ", np.sum(tY)/tY.shape[0], '%')
+print ("Misclassification rate: ", 1-np.sum(tY)/tY.shape[0], '%' )
 print ("Percentage correct using model: ", 1-np.sum(np.absolute(predicted - cY))/cY.shape[0], "%")
