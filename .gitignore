@@ -2,4 +2,6 @@ Data/runs/*
 Data/data_*
 loses.pkl
 wins.pkl
-X.npy
+Data/X.npy
+Data/X.npy
+Data/X.npy
