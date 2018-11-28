@@ -9,7 +9,7 @@ def prepareData(X, Y, seed=None):
     numPredictors = X.shape[1]
     numRuns = X.shape[0]
     trainingIdxs = np.random.choice(numRuns, numRuns, replace=False)
-    trainingPercentage = .6
+    trainingPercentage = .8
     trainingXs = X[trainingIdxs[0:int(math.floor(numRuns*trainingPercentage))]]
     validationXs = X[trainingIdxs[int(math.floor(numRuns*trainingPercentage)):numRuns]]
     trainingYs = Y[trainingIdxs[0:int(math.floor(numRuns * trainingPercentage))]]

@@ -90,7 +90,7 @@ def main():
     # print min, max, cumCount/X.shape[0]
     # exit(0)
 
-    testingOnly(X)
+    # testingOnly(X)
 
     # Pick a random seed to use
     seed = random.randint(0, 1000)
@@ -108,8 +108,11 @@ def main():
     for i in range(predictedYs.shape[0]):
         if(predictedYs[i] == checkY[i]):
             countCorrect = countCorrect + 1
-    print "Percentage guessed correctly: ", 1.0*countCorrect/predictedYs.shape[0]
-    print "Percentage by guessing based on Wins/total: ", np.sum(testY)/testY.shape[0]
+    print "Percentage guessed correctly using Model: ", 1.0*countCorrect/predictedYs.shape[0]
+    print "Probability of success calculated by Wins/total: ", np.sum(testY)/testY.shape[0]
 
 if __name__ == '__main__':
     main()
+
+
+    #Compare to SVM and XGBoost
