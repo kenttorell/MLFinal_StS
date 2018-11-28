@@ -109,7 +109,9 @@ def main():
         if(predictedYs[i] == checkY[i]):
             countCorrect = countCorrect + 1
     print "Percentage guessed correctly using Model: ", 1.0*countCorrect/predictedYs.shape[0]
+    print "Misclassification rate: ", 1- 1.0*countCorrect/predictedYs.shape[0]
     print "Probability of success calculated by Wins/total: ", np.sum(testY)/testY.shape[0]
+    print "Misclassification rate: ", 1 - np.sum(testY)/testY.shape[0]
 
 if __name__ == '__main__':
     main()

@@ -31,8 +31,12 @@ tX, tY, cX, cY = prepareData(X,Y, seed)
 # print tY.shape
 
 
-
+#Uncomment this one for l1/Lasso regression (not technically lasso, but same idea)
 log = LogisticRegression(penalty='l1', solver = 'liblinear', random_state=seed, multi_class='ovr')
+
+#Uncomment this one for l2/ridge regression
+# log = LogisticRegression(penalty='l1', solver = 'liblinear', random_state=seed, multi_class='ovr')
+
 log.fit(tX,tY)
 # print "Check1"
 # print cX.shape
