@@ -1,4 +1,4 @@
-from xgboost import XGBClassifier
+from sklearn import svm
 import LoadData
 import numpy as np
 import math
@@ -31,11 +31,11 @@ tX, tY, cX, cY = prepareData(X,Y, seed)
 # print tY.shape
 
 
-classifier = XGBClassifier()
-classifier.fit(tX, tY)
+model = svm.SVC(C=100)
+model.fit(tX, tY)
 
 
-yPred = classifier.predict(cX)
+yPred = model.predict(cX)
 
 # print (yPred)
 # print(cY)
