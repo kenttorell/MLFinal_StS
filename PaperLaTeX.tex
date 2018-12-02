@@ -37,13 +37,13 @@ $p(b_i|b_{i+1}, …, b_n, a) = p(b_i, a)$\\
 
 which implies that\\
 
-$\displaystyle p(a|b) \propto p(a)\prod_{i=1}^n p(b_i|a)$\\
+$\displaystyle p(a|\textbf b) \propto p(a)\prod_{i=1}^n p(b_i|a)$\\
 
 For the purposes of predicting outcomes in this model the following notation will be used:\\
 
 $x_{ij} =$ Card $i$ in run $j$, where $i \in \{1, 2, \ldots , n\}$ and $j \in \{1, 2\ldots, p\}$\\
 
-$x =$ The vector of card counts for a single run\\
+$\textbf x =$ The vector of card counts for a single run\\
 
 $p(\{V, L\}) =$ Probability of a \{victory, loss\}\\
 
@@ -55,7 +55,7 @@ $C(x_i, \{V,L \}) =$ The total count of card $i$ appearing across all \{victorie
 
 Rewriting the NB model in the context of this project leads to:\\
 
-$p(V|x) \propto p(V) \prod_{i=1}^n p(x_i |V)$\\
+$p(V|\textbf x) \propto p(V) \prod_{i=1}^n p(x_i |V)$\\
 
 where predicted outcome for run $r = \\ \underset{o\in\{V,L\}}{\mathrm{argmax}}$  $p(o) \displaystyle\prod_{i=1}^n[p(x_i |o)^{ C(r_i)} ] $\\
 
